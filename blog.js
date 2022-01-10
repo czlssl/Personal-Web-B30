@@ -18,7 +18,7 @@ function addBlog(event) {
         title: title,
         content: content,
         image:image,
-        author:'eva',
+        author:'sesil',
         postAt:new Date()
     }
 
