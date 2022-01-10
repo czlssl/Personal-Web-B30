@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="form.js"></script>
+    </head>
+
+    <body>
+
+        <form>
+            <img src="asset/logo dumbways.png" style="width: 20%">
+            
+            <div>   
+                <br>     
+                <label for="input-name" >Name</label>
+                <input id="input-name" type="text">
+            </div>
+
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email" class="email">
+            </div>
+
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input id="input-phone" type="number" >
+            </div>
+
+            <div>
+                <div>
+                    <label>Skill</label><br>
+                    <input type="checkbox" id="html" value="HTML">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="input-subject">Subject</label>
+                <select id="input-subject">
+                    <option value="">Select Here</option>
+                    <option>I'm Hiring</option>
+                    <option>Problem With Our Site</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea id="input-message"></textarea>
+            </div>
+
+            <button type="button" onclick="submitData()">Submit</button>
+            
+         <form action="mailto:someone@$nailmail.com" enctype="text/plain" method="post">     
+        </form>
+
+    </body>
+</html>
